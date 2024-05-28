@@ -1,15 +1,20 @@
 .green,
 .white,
 .red {
-    text-align: left;
-    font-size: 30px;
+    text-align: center;
+    font-size: 25px;
     color: #FFFFFF;
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    padding: 8px;
+    border: 2px solid black;
+    margin: 8px;
+    width: 200px;
     
 }
 
 .green {
     background-color: #146e0e
+
 }
 
 .white {
@@ -25,11 +30,11 @@ ul {
 }
 
 img {
-    height: 175px;
+    height: 100px;
     width: auto;
     display: block;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
  }
 
 .recipe {
@@ -39,7 +44,13 @@ img {
 div {
     font-weight: 800;
     font-size: 20px;
-    color: #ffffff;
-    background-color: #000000;
     text-align: center;  
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 8px;
+    background-color: black;
+    color: white;
 }
